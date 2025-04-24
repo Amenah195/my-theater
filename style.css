@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:hsl(350, 100%, 88%);
+    color:black;
+    text-align: center;
+    font-family:sans-serif;
+}
+.screen{
+    border: 10px ;
+    border-style: solid;
+    border-color:deeppink;
+    display: inline-bloc;
+    padding: 5px;
+    margin:10px ;
+}
+.theater-name{
+    font-size:xx-large;
+    font-family:cursive;
+    text-shadow:2px 2px 10px;
+}
+.video-container{
+    border: 10px;
+    margin: 30px;
+}
+.my-video{
+    border: 5px rgb(143, 19, 81);
+    border-style: solid;
+    box-shadow: 0 0 20px rgba(238, 5, 144, 0.519);
+    margin: 5px;
+}
+ .controls button{
+   padding: 10px 20px;
+    display:inline-block;
+    background-color: rgb(222, 6, 114);
+    cursor:pointer;
+    transition: backround-color 0.3s ease;
+}
+.controls button:hover{
+    background-color: rgb(105, 205, 255);
+}
